@@ -1,15 +1,15 @@
-FileType     Colour		           Hex	          Reasoning
-.bat	     DOS Green		           #008080	  Inspired by classic MS-DOS/Command Prompt aesthetics and old Windows terminal palettes.
-.ps1	     PowerShell Blue		   #012456	  Directly based on the iconic PowerShell branding and console colour.
-.cmd	     Console Black		   #000000	  Strong association with Command Prompt and Windows shell environments.
-.vbs	     VB Blue			   #00599C	  Reflects classic Visual Basic/Windows scripting heritage.
-.py	     Python Blue		   #3776AB	  Taken from Python’s official branding. Balanced with readability and recognisability.
-.sh	     Unix Green		           #4EAA25	  Inspired by Linux terminal greens and shell scripting culture.
-.zsh	     Solar Purple		   #F15A24	  Based loosely on Oh My Zsh branding and modern terminal customisation aesthetics.
-.wsf	     Windows Grey		   #7A7A7A	  Windows Script Files are more infrastructure-oriented, so a neutral Windows-style grey fits well.
-.js	     JavaScript Yellow	  	   #F7DF1E	  Official JavaScript branding colour. Instantly recognisable.
-.rb	     Ruby Red		           #CC342D	  Drawn from Ruby’s gemstone identity and official logo colour.
-.pl	     Camel Brown		   #8B5A2B	  A nod to Perl’s camel mascot and older Unix scripting traditions.
-.php	     PHP Indigo		           #777BB4	  Official PHP branding colour with strong historical association.
-.fish	     Aqua Cyan		      	   #4AAECA	  Matches Fish shell’s friendly modern terminal vibe and ocean theme.
-.lua	     Moon Blue		           #2C2D72	  Inspired by Lua’s moon symbolism (“lua” means moon in Portuguese) and official branding tones.
+FileType     Colour		           Hex	      Reasoning
+.bat	       DOS Green		       #008080	  Inspired by classic MS-DOS/Command Prompt aesthetics and old Windows terminal palettes.
+.ps1	       PowerShell Blue	   #012456	  Directly based on the iconic PowerShell branding and console colour.
+.cmd	       Console Black		   #000000	  Strong association with Command Prompt and Windows shell environments.
+.vbs	       VB Blue			       #00599C	  Reflects classic Visual Basic/Windows scripting heritage.
+.py	         Python Blue		     #3776AB	  Taken from Python’s official branding. Balanced with readability and recognisability.
+.sh	         Unix Green		       #4EAA25	  Inspired by Linux terminal greens and shell scripting culture.
+.zsh	       Solar Purple		     #F15A24	  Based loosely on Oh My Zsh branding and modern terminal customisation aesthetics.
+.wsf	       Windows Grey		     #7A7A7A	  Windows Script Files are more infrastructure-oriented, so a neutral Windows-style grey fits well.
+.js	         JavaScript Yellow	 #F7DF1E	  Official JavaScript branding colour. Instantly recognisable.
+.rb	         Ruby Red		         #CC342D	  Drawn from Ruby’s gemstone identity and official logo colour.
+.pl	         Camel Brown		     #8B5A2B	  A nod to Perl’s camel mascot and older Unix scripting traditions.
+.php	       PHP Indigo		       #777BB4	  Official PHP branding colour with strong historical association.
+.fish	       Aqua Cyan		   	   #4AAECA	  Matches Fish shell’s friendly modern terminal vibe and ocean theme.
+.lua	       Moon Blue		       #2C2D72	  Inspired by Lua’s moon symbolism (“lua” means moon in Portuguese) and official branding tones.
