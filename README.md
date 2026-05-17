@@ -201,7 +201,3 @@ All intellectual property rights remain with Bliitzscript.
 Status
 Talaria is actively developed.
 Features, platform support, and licensing terms may evolve over time.
-
-==========================================================
-==========================================================
-End of README
