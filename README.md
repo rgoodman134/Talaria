@@ -66,6 +66,17 @@ FIRST TIME SETUP
   7. Close Settings — your scripts will now appear
      in the sidebar
 
+SCRIPT ORGANISATION
+  Talaria organises scripts using your existing folder 
+  structure rather than imposing a custom database or 
+  tagging system. The sidebar mirrors your configured 
+  scripts directory directly, allowing you to group 
+  tools naturally by environment, platform, role, or 
+  workflow. Talaria automatically discovers and 
+  indexes scripts up to two subfolder levels deep, 
+  helping keep repositories structured and easy to 
+  navigate without requiring additional configuration.
+
 PORTABLE MODE
   When enabled, Talaria automatically adjusts the
   scripts folder path to match whichever drive letter
