@@ -1,0 +1,116 @@
+Talaria v1.0.0 — User Guide
+
+
+1. Introduction & Core Philosophy
+
+Talaria is a lightweight, portable script repository and execution utility designed for system administrators, DevOps engineers, and IT professionals.
+Unlike heavy automation frameworks, Talaria is intentionally manual-first. It acts as an organized dashboard for your existing, purpose-built scripts—ensuring that execution always happens with clear human intent. It does not author, edit, or automatically schedule scripts; it ensures you never have to ask, "Where did I save that script again?"
+
+Supported File Extensions & Environments:
+
+Talaria natively recognizes and organizes 14 scripting languages. By default, it maps them using your host operating system's environment or specified shell integrations:
+
+Windows Native: .bat, .cmd, .ps1, .vbs, .wsf
+Cross-Platform / Interpreted: .py (Python), .js (JavaScript), .rb (Ruby), .pl (Perl), .php (PHP), .lua (Lua)
+Unix/Linux Shells: .sh (Bash), .zsh, .fish
+
+
+2. Setting Up Talaria
+
+Step 1: Designate Your Script Folder
+
+- Upon first launch, navigate to the Settings gear icon in the top right corner.
+- Locate the Script Folder section.
+- Click Browse and select the root directory on your machine where your scripts are stored (e.g., C:\Users\User\Documents\Scripts).
+- Once selected, Talaria will display a green ✓ Folder found confirmation and automatically parse your directory structure.
+
+Step 2: Configure Shell Integration (For Linux/Unix Scripts on Windows)
+
+To run scripts like .sh, .zsh, or .fish natively on a Windows host, Talaria bridges execution through an installed subsystem environment:
+
+- Under Shell Integration, select your Shell Type from the dropdown menu (e.g., MSYS2).
+- Provide the absolute Shell Path to its launcher command (e.g., C:\msys64\msys2_shell.cmd) by clicking Browse.
+
+Step 3: Customize File Type Colors
+
+To make your dashboard highly scannable, Talaria assigns custom color badges to different file extensions. Under File Type Colours, you can click the hex code fields adjacent to any extension (e.g., #012456 for .ps1) to customize its appearance, or click Reset Defaults to revert.
+
+
+3. Navigating the Dashboard & Views
+
+UI Layout Customization
+
+You can dynamically adapt the application workspace to your workflow using the View Mode icons located in the top-right header:
+	Monitor Icon: Switches to Console Only view, maximizing the output screen for long-running scripts or heavy terminal output.
+	Document Icon: Switches to Script Preview Only view, allowing you to review the script's raw contents before execution.
+	Split Window Icon: Switches to Split View (Default), allowing you to view your execution console alongside script controls concurrently.
+
+Organizing & Finding Scripts
+
+Directory Tree: The left-hand sidebar mirrors your actual local directory structure. Folders can be expanded or collapsed.
+
+Filtering Tabs: Quickly isolate scripts using the tabs above the search bar:
+	All: Shows every file found in the script directory.
+	★ (Favourites): Displays only scripts you have manually starred for quick access.
+	Recent: Lists scripts sorted by their most recent execution timestamp.
+	Frequent: Lists scripts sorted by execution count (the items you run the most).
+
+Search Bar: Type into the Search scripts... input field to instantaneously filter files by name across all subfolders.
+
+💡 Under the Hood: The Recent and Frequent tabs, as well as script metrics, are calculated dynamically by parsing the telemetry data stored inside Talaria's local execution logs.
+
+
+4. Script Management & Context Options
+
+Right-clicking any script in the sidebar opens a context menu packed with quick administrative actions:
+	Open in Editor: Immediately launches the script into your designated external text editor or IDE.
+	Add to / Remove from Favourites: Toggles the script's visibility inside your ★ Favourites tab.
+	Properties: Opens a metadata window displaying telemetry metrics for that specific script, including:
+		Total execution count within Talaria.
+		Timestamp of the last time the script was executed.
+
+
+5. Execution Modes & Advanced Arguments
+
+Choosing an Execution Context (Run Dropdown)
+Clicking the small dropdown arrow (▼) next to the primary ▶ Run button lets you elevate or pivot your execution environment. Talaria will pass the script command to the host OS using the chosen context:
+
+Operating System	Execution Option	Description	
+All Platforms		Run as Current User	Executes using the active user's permissions.	
+All Platforms		Run as Another User	Prompts for credentials to run under a separate user account.	
+Windows Only		Run as Administrator	Elevates the script with localized administrative privileges (UAC).
+Windows Only		Run as SYSTEM		Launches the script in the local NT AUTHORITY\SYSTEM context.
+macOS Only		Run as Root		Executes the script with superuser (root) privileges via sudo.
+
+Additional Arguments & Target Templating
+
+For scripts that require runtime variables, parameters, or switches, use the Additional Arguments text field. Text typed here is safely appended to the script's terminal command string upon execution.To expedite repetitive operations, Talaria includes an Argument Template System:
+	Save Icon: Click the floppy disk icon next to the arguments box to save your current string as a template. Arguments are saved individually per script, meaning a Python script and a PowerShell script will maintain entirely isolated parameter collections.
+	Open Icon: This icon appears dynamically only when saved argument templates exist for the selected script. Click it to reveal a list of your saved configurations and instantly populate the text field, dramatically accelerating script speed and preventing manual typos.
+
+
+6. Advanced Settings & Configuration
+
+External Editor Overrides
+
+While Talaria doesn't edit scripts natively, it allows you to quickly launch them into your favorite external IDE or text editor.
+
+Global Default: Set your primary system editor (e.g., notepad.exe or /usr/bin/nano) in the Global (default) field.
+File-Specific Overrides: If you prefer .py files to open in VS Code but .ps1 files to open in PowerShell ISE, type the respective paths into the individual extension fields under Editor Settings.
+
+Backup & Portability
+
+Because Talaria is fully portable, you can migrate your entire app environment easily using the buttons at the bottom of the Settings page:
+	Export Config: Saves your paths, colors, and editor preferences to a standard .json file.
+	Import Config: Restores your setup on a new machine or secondary installation.
+	Reset All to Defaults: Wipes all application states back to a clean slate.
+
+
+7. Troubleshooting & Logs
+
+If a script fails to execute or output isn't rendering properly:
+
+- Navigate to Settings and scroll down to the Logs section.
+- Click View Logs.
+
+Talaria keeps an appended, dedicated log file per script inside a local Logs folder within your scripts directory to help you debug environment variables and execution hooks.
