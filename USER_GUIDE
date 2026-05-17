@@ -114,3 +114,14 @@ If a script fails to execute or output isn't rendering properly:
 - Click View Logs.
 
 Talaria keeps an appended, dedicated log file per script inside a local Logs folder within your scripts directory to help you debug environment variables and execution hooks.
+
+
+8. Keyboard Shortcuts
+
+  F5          Run / Cancel
+  Ctrl+F      Focus search
+  Ctrl+L      Clear console
+  Ctrl+S      Save argument template
+  Ctrl+P      Toggle properties panel
+  Ctrl+1-4    Switch sidebar tabs
+  Escape      Cancel run / clear search
