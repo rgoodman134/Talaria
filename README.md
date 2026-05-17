@@ -161,16 +161,16 @@ Permission is granted to any individual or organization to use, copy, and distri
 Commercial use is strictly prohibited without prior written permission from Bliitzscript.
 Commercial use includes, but is not limited to:
 
-Selling the software
-Bundling the software with paid products or services
-Using the software within a commercial business environment
-Enterprise or organizational deployment for financial benefit
+Selling the software, 
+Bundling the software with paid products or services, 
+Using the software within a commercial business environment, 
+Enterprise or organizational deployment for financial benefit, 
 Monetized redistribution
 
 You may not:
 
-Resell this software
-Claim authorship of this software
+Resell this software, 
+Claim authorship of this software, 
 Remove license or copyright notices
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
@@ -185,9 +185,9 @@ Copyright (c) 2026 Bliitzscript
 Commercial use requires a separate license agreement.
 The commercial license grants the right to:
 
-Use Talaria in business or enterprise environments
-Use Talaria in revenue‑generating activities
-Deploy Talaria internally within an organization
+Use Talaria in business or enterprise environments, 
+Use Talaria in revenue‑generating activities, 
+Deploy Talaria internally within an organization, 
 
 Restrictions apply. Redistribution, resale, sublicensing, reverse engineering, and removal of branding or license notices are prohibited.
 Support, updates, and maintenance are not guaranteed unless explicitly agreed in writing.
