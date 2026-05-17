@@ -2,27 +2,6 @@
 A lightweight, portable application designed for system administrators and IT professionals that provides a central place to store, organise, and reliably execute existing scripts without replacing established scripting workflows. Its goal is to make commonly used administrative scripts easy to find and safe to run when required.
 
 
-
-
-===========================================================
-===========================================================
-
-   / /        \ \    
-  / /          \ \   
- / /   \\\\\\\  \ \  ---------
-/ /              \ \ ---------   -         -
-\ \    \\\\\     / /    ---      -
- \ \            / /     ---  --  -  --  -- -  --
-  \ \  \\\\\\\ / /      --- -  - - -  - -  - -  -
-   \ \      \ v /       ---  --- -  --- -  -  --- =
-
-
-==========================================================
-==========================================================
-
-    		   << Talaria >>
-	     Store. Organise. Execute.
-
 Overview
 ========
 Talaria is a lightweight, portable application designed for system administrators and IT professionals who maintain collections of small, purpose‑built scripts that are executed manually as needed.
